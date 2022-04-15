@@ -2,13 +2,13 @@
 
 **Challenge: [SQL Truncation](https://www.root-me.org/en/Challenges/Web-Server/SQL-Truncation)**
 
-![Graphical user interface, application Description automatically generated](./media/image1.png){width="6.5in" height="1.9340277777777777in"}
+<img src="./media/image1.png" style="width:6.5in;height:1.93403in" alt="Graphical user interface, application Description automatically generated" />
 
 **SQL Truncation** là lỗ hổng xảy ra khi user input vượt qua các điều kiện của database khiến database xung đột và gây ra hiện tượng thiếu xác thực.
 
 Ở challenge này, ta phải mạo danh admin và login vào tab của admin. Đầu tiên, ta kiếm tra sources code và thấy được comment về các query khi register:
 
-![Graphical user interface, text, application Description automatically generated](./media/image2.png){width="6.5in" height="3.0840277777777776in"}
+<img src="./media/image2.png" style="width:6.5in;height:3.08403in" alt="Graphical user interface, text, application Description automatically generated" />
 
 Ở username và password, ta có thể thấy, database giới hạng length = 12 (login) và length = 32 (password). Như vậy, ta thử attack vào username với payload:
 
@@ -16,9 +16,9 @@
 
 -   **Password:** somethinghere
 
-![Graphical user interface, text, application, email Description automatically generated](./media/image3.png){width="4.442051618547682in" height="1.7334831583552055in"}
+<img src="./media/image3.png" style="width:4.44205in;height:1.73348in" alt="Graphical user interface, text, application, email Description automatically generated" />
 
-Khi này, ta nhận được thông báo "User saved". Theo SQL Truncations, lúc này, thông tin login của ta sẽ bị truncate thành:
+Khi này, ta nhận được thông báo “User saved”. Theo SQL Truncations, lúc này, thông tin login của ta sẽ bị truncate thành:
 
 -   **Username**: admin
 
@@ -26,7 +26,7 @@ Khi này, ta nhận được thông báo "User saved". Theo SQL Truncations, lú
 
 Ta chuyển qua tab Administrator, login vào bằng password vừa tạo:
 
-![Graphical user interface, text, application, website Description automatically generated](./media/image4.png){width="6.0838604549431325in" height="2.441877734033246in"}
+<img src="./media/image4.png" style="width:6.08386in;height:2.44188in" alt="Graphical user interface, text, application, website Description automatically generated" />
 
 Ta nhận được flag sau khi login!
 

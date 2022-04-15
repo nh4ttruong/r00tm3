@@ -2,38 +2,38 @@
 
 **Challenge:** [SQL injection - String](https://www.root-me.org/en/Challenges/Web-Server/SQL-injection-String)
 
-![Graphical user interface Description automatically generated with low confidence](./media/image1.png){width="6.5in" height="1.1020833333333333in"}
+<img src="./media/image1.png" style="width:6.5in;height:1.10208in" alt="Graphical user interface Description automatically generated with low confidence" />
 
 Thử SQLi ở thẻ Login thì không bypass được, ta qua thẻ Search để thử. Ở thẻ này có vẻ khả thi hơn vì nó có thực hiện query theo input của ta. Ví dụ:
 
-![Graphical user interface, text Description automatically generated with medium confidence](./media/image2.png){width="6.5in" height="1.2027777777777777in"}
+<img src="./media/image2.png" style="width:6.5in;height:1.20278in" alt="Graphical user interface, text Description automatically generated with medium confidence" />
 
-Đầu tiên, thử với payload đơn giản **1' or 1=1\--** , thì phát hiện nó đã bị SQLi thành công:
+Đầu tiên, thử với payload đơn giản **1’ or 1=1--** , thì phát hiện nó đã bị SQLi thành công:
 
-![A picture containing text Description automatically generated](./media/image3.png){width="6.5in" height="1.59375in"}
+<img src="./media/image3.png" style="width:6.5in;height:1.59375in" alt="A picture containing text Description automatically generated" />
 
-Ta thực hiện blind SQL để tìm kiếm thông tin infor của admin để có thể login. Ta thử với payload **1' union select 1** , thì nhận về lỗi sau:
+Ta thực hiện blind SQL để tìm kiếm thông tin infor của admin để có thể login. Ta thử với payload **1’ union select 1** , thì nhận về lỗi sau:
 
-![](./media/image4.png){width="6.5in" height="0.78125in"}
+<img src="./media/image4.png" style="width:6.5in;height:0.78125in" />
 
-Có thể biết được server sử dụng SQLite3, từ đó, công việc của ta cần sử dụng cú pháp của SQLite3 để mò ra các table trong database với hi vọng tìm được admin. Nhưng trước tiên, ta cần phải thực hiện dò số cột. Thay payload thành **1' union select 1,1\--** thì có vẻ đã tìm được số cột là 2:
+Có thể biết được server sử dụng SQLite3, từ đó, công việc của ta cần sử dụng cú pháp của SQLite3 để mò ra các table trong database với hi vọng tìm được admin. Nhưng trước tiên, ta cần phải thực hiện dò số cột. Thay payload thành **1’ union select 1,1--** thì có vẻ đã tìm được số cột là 2:
 
-![Graphical user interface, text, application Description automatically generated](./media/image5.png){width="3.8753357392825896in" height="1.466793525809274in"}
+<img src="./media/image5.png" style="width:3.87534in;height:1.46679in" alt="Graphical user interface, text, application Description automatically generated" />
 
-Vì server dùng SQLite3, do vậy, ta cần truy vẫn các table bằng cách tìm trong **sqlite_master** hoặc **sqlite_schema.** Thử truy vấn với payload **1' union select 1,name from sqlite_master\--** ta có:
+Vì server dùng SQLite3, do vậy, ta cần truy vẫn các table bằng cách tìm trong **sqlite\_master** hoặc **sqlite\_schema.** Thử truy vấn với payload **1’ union select 1,name from sqlite\_master--** ta có:
 
-![Graphical user interface, text, application, email Description automatically generated](./media/image6.png){width="5.758832020997375in" height="2.350203412073491in"}
+<img src="./media/image6.png" style="width:5.75883in;height:2.3502in" alt="Graphical user interface, text, application, email Description automatically generated" />
 
-Tiếp tục, ta blind vào table users *1\' union select 1,1 from users\--*
+Tiếp tục, ta blind vào table users *1' union select 1,1 from users--*
 
-![Graphical user interface, text, application, email Description automatically generated](./media/image7.png){width="4.967097550306212in" height="1.9585028433945757in"}
+<img src="./media/image7.png" style="width:4.9671in;height:1.9585in" alt="Graphical user interface, text, application, email Description automatically generated" />
 
-Tiếp tục, ta thử query tìm username và password với payload **1\' union select username,password from users\-- :**
+Tiếp tục, ta thử query tìm username và password với payload **1' union select username,password from users-- :**
 
-![Graphical user interface, text, application, email Description automatically generated](./media/image8.png){width="5.933847331583552in" height="2.4585465879265094in"}
+<img src="./media/image8.png" style="width:5.93385in;height:2.45855in" alt="Graphical user interface, text, application, email Description automatically generated" />
 
 Thử login thì thành công:
 
-![Graphical user interface, application Description automatically generated](./media/image9.png){width="6.5in" height="1.9243055555555555in"}
+<img src="./media/image9.png" style="width:6.5in;height:1.92431in" alt="Graphical user interface, application Description automatically generated" />
 
 **Flag:** c4K04dtIaJsuWdi
