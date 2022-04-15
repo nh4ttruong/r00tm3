@@ -22,3 +22,5 @@
 - [SQL injection string](./SQLinjectionstring/SQLinjectionstring.md)
 
 - [SQL Truncation](./SQLTruncation/SQLTruncation.md)
+
+- [SQL injection - Filter bypass](./SQLinjection-Filterbypass/SQLinjection-Filterbypass.md)
