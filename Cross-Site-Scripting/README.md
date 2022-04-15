@@ -1,10 +1,10 @@
 # XSS - root-me challenges
 
 ## Solved challenges
-- [XSS - Reflected](./Cross-Site-Scripting/XSS-Reflected.md)
+- [XSS - Reflected](./XSS-Reflected/XSS-Reflected.md)
 
-- [XSS - Stored 1](./Cross-Site-Scripting/XSS-Stored1.md)
+- [XSS - Stored 1](./XSS-Stored1/XSS-Stored1.md)
 
-- [XSS - Stored 2](./Cross-Site-Scripting/XSS-Stored2.md)
+- [XSS - Stored 2](./XSS-Stored2/XSS-Stored2.md)
 
-- [XSS DOM Based - Introduction](./Cross-Site-Scripting/XSSDOMBased-Introduction.md)
+- [XSS DOM Based - Introduction](./XSSDOMBased-Introduction/XSSDOMBased-Introduction.md)
