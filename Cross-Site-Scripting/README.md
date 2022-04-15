@@ -8,3 +8,7 @@
 - [XSS - Stored 2](./XSS-Stored2/XSS-Stored2.md)
 
 - [XSS DOM Based - Introduction](./XSSDOMBased-Introduction/XSSDOMBased-Introduction.md)
+
+- [XSS DOM Based - Eval](./XSS-DOMBased-Eval/XSS-DOMBased-Eval.md)
+
+- [XSS DOM Based - AngularJS](./XSSDOMBased-AngularJS/XSSDOMBased-Angular.md)
