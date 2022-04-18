@@ -1,3 +1,5 @@
+![root-me](./rootme.png)
+
 # root-me solutions
 Root-me is framework to practice with CTF challenges.
 
