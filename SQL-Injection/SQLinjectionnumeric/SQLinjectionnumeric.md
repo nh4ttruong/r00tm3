@@ -34,4 +34,4 @@ Login vào thành công:
 
 <img src="./media/image7.png" style="width:6.5in;height:1.95764in" alt="Graphical user interface, text, application Description automatically generated" />
 
-**Flag:** aTlkJYLjcbLmue3
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

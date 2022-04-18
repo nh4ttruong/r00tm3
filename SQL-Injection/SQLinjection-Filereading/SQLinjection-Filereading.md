@@ -60,4 +60,4 @@ Giờ thì hiểu nó rồi, ta sử dụng python để stringxor ngược lạ
 
 <img src="./media/image14.png" style="width:5.80648in;height:3.09369in" alt="A screenshot of a computer Description automatically generated" />
 
-**Flag:** superpassword
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

@@ -38,4 +38,4 @@ HTTP Request nhận về:
 
 <img src="./media/image7.png" style="width:5.42995in;height:2.95398in" alt="A screenshot of a computer Description automatically generated" />
 
-**Flag:** rootme{@NGu1@R\_J$\_1$\_C001}
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

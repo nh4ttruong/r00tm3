@@ -46,4 +46,4 @@ Có **ADMIN\_COOKIE**, ta thay đổi vào cookie và get pass:
 
 <img src="./media/image10.png" style="width:6.5in;height:3.24167in" alt="A screenshot of a computer Description automatically generated with medium confidence" />
 
-**Flag:** E5HKEGyCXQVsYaehaqeJs0AfV
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

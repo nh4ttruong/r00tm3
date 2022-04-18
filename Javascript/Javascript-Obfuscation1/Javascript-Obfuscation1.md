@@ -12,4 +12,4 @@ Ta thấy, pass lúc này được gán bằng một dòng lệnh Javascript. L�
 
 Lúc này, có vẻ như ta đã tìm được password.
 
-**Password:** **hDufjdki156**
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

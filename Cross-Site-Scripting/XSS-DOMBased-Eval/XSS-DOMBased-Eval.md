@@ -42,4 +42,4 @@ Done:
 
 <img src="./media/image6.png" style="width:6.5in;height:3.85139in" alt="Graphical user interface, application Description automatically generated" />
 
-**Flag:** rootme{Eval\_Is\_DangER0us}
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

@@ -36,4 +36,4 @@ Thử login thì thành công:
 
 <img src="./media/image9.png" style="width:6.5in;height:1.92431in" alt="Graphical user interface, application Description automatically generated" />
 
-**Flag:** c4K04dtIaJsuWdi
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

@@ -70,4 +70,4 @@ Không hiểu sao nó chỉ trả về giá trị như lúc đầu tiêm. Ngồi
 
 <img src="./media/image12.png" style="width:6.5in;height:3.525in" alt="A screenshot of a computer Description automatically generated" />
 
-**Flag:** KLfgyTIJbdhursqli
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

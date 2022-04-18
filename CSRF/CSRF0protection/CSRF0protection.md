@@ -40,4 +40,4 @@ Submit để gửi contact đến admin và qua tab Private để kiểm tra k�
 
 <img src="./media/image6.png" style="width:5.95885in;height:1.84183in" alt="Graphical user interface, application Description automatically generated with medium confidence" />
 
-**Flag:** Csrf\_Fr33style-L3v3l1!
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

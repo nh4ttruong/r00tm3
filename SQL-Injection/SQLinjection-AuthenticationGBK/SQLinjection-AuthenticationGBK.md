@@ -48,4 +48,4 @@ Sau khi send request, Burp hiển thị Redirection, click vào thì hiển th�
 
 <img src="./media/image7.png" style="width:6.5in;height:2.32917in" alt="Graphical user interface, text, application Description automatically generated" />
 
-**Flag:** iMDaFlag1337!
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

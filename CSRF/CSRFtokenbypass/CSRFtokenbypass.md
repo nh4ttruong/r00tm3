@@ -48,4 +48,4 @@ Submit để gửi contact đến admin và qua tab Private để kiểm tra k�
 
 <img src="./media/image4.png" style="width:5.968in;height:2.21847in" alt="Graphical user interface, text, application, chat or text message Description automatically generated" />
 
-**Flag:** Byp4ss\_CSRF\_T0k3n-w1th-XSS
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

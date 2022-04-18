@@ -38,4 +38,4 @@ Sau một khoảng thời gian, ta đã ghép được password: **e2azO93i**
 
 <img src="./media/image6.png" style="width:6.5in;height:3.90347in" alt="A picture containing text, screenshot, monitor, computer Description automatically generated" />
 
-**Flag:** e2azO93i
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

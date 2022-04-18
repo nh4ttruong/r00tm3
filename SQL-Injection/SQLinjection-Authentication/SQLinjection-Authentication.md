@@ -38,4 +38,4 @@ Inspect và tìm được password của admin:
 
 <img src="./media/image5.png" style="width:4.6254in;height:1.36678in" alt="Text Description automatically generated" />
 
-**Flag:** t0\_W34k!$
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

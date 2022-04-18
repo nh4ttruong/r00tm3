@@ -10,4 +10,4 @@ Ta thực hiện xóa thuộc tính này ở 2 thẻ input, sau đó thử nhậ
 
 <img src="./media/image2.png" style="width:6.5in;height:1.57361in" alt="Graphical user interface, application Description automatically generated" />
 
-**Password:** **HTMLCantStopYou**
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

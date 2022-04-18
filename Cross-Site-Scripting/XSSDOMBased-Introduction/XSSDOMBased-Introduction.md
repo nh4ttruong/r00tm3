@@ -26,4 +26,4 @@ Ta thực hiện điền payload bên dưới đến POST lên và đợi cookie
 
 <img src="./media/image5.png" style="width:6.5in;height:1.64444in" alt="Graphical user interface, application, Teams Description automatically generated" />
 
-**Flag:** rootme{XSS\_D0M\_BaSed\_InTr0}
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

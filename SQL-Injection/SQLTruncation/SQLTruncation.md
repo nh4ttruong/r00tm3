@@ -12,7 +12,7 @@
 
 Ở username và password, ta có thể thấy, database giới hạng length = 12 (login) và length = 32 (password). Như vậy, ta thử attack vào username với payload:
 
--   **Username:** admin       hehehehe (7 whitespace)
+-   **Username:** admin hehehehe (7 whitespace)
 
 -   **Password:** somethinghere
 
@@ -31,3 +31,5 @@ Ta chuyển qua tab Administrator, login vào bằng password vừa tạo:
 Ta nhận được flag sau khi login!
 
 **Flag:** J41m3Qu4nD54Tr0nc
+
+\- Flag:

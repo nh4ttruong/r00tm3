@@ -14,4 +14,4 @@ Kiểm tra Sources của website, ta thấy một file (index):
 
 <img src="./media/image3.png" style="width:4.18451in;height:2.05157in" alt="A screenshot of a computer Description automatically generated" />
 
-**Password:** **123456azerty**
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

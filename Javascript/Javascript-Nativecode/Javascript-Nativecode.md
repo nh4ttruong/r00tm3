@@ -12,4 +12,4 @@ Sử dụng công cụ [Javascript Unobfuscator](https://www.dcode.fr/javascript
 
 Từ đó, dễ dàng suy đoán được, password = ‘toto123lol’
 
-**Password:** **toto123lol**
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

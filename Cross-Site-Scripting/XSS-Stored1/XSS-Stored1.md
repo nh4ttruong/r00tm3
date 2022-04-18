@@ -30,4 +30,4 @@ Kiểm tra request bin, ta nhận được giá trị ADMIN\_COOKIE.
 
 <img src="./media/image7.png" style="width:6.5in;height:1.2125in" alt="A picture containing graphical user interface Description automatically generated" />
 
-**Password:** NkI9qe4cdLIO2P7MIsWS8ofD6
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

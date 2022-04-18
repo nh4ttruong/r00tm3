@@ -16,4 +16,4 @@ Ta thấy, script so sánh username == TheUsername && password == ThePassword. T
 
 -   <img src="./media/image3.png" style="width:3.6875in;height:1.72431in" />Password: HIDDEN
 
-**Password:** **HIDDEN**
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

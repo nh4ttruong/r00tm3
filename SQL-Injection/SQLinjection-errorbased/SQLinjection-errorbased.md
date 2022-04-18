@@ -50,4 +50,4 @@ Lỗi res về cho ta biết, website sẽ chỉ hiển thị 1 row. Đến đâ
 
 <img src="./media/image13.png" style="width:6.5in;height:3.82083in" alt="A screenshot of a computer Description automatically generated" />
 
-**Flag:** 1a2BdKT5DIx3qxQN3UaC
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*

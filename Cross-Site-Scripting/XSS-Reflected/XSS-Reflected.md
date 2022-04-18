@@ -32,4 +32,4 @@ Qua RequestBin và nhận flag:
 
 <img src="./media/image7.png" style="width:6.5in;height:1.94931in" alt="Graphical user interface, text, application Description automatically generated" />
 
-**Flag:** r3fL3ct3D\_XsS\_fTw
+\- Flag: \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
