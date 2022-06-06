@@ -45,7 +45,7 @@ Từ đó, ta có 2 kết quả:
 
 Submit và thành công
 
-è **Flag**: chatelet15h
+**Flag**: \*\*\*\*\*\*\*
 
 <img src="./media/image5.png" style="width:6.6875in;height:3.74167in" alt="A screenshot of a computer screen Description automatically generated" />
 
