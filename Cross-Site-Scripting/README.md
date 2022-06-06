@@ -11,4 +11,4 @@
 
 - [XSS DOM Based - Eval](./XSS-DOMBased-Eval/XSS-DOMBased-Eval.md)
 
-- [XSS DOM Based - AngularJS](./XSSDOMBased-AngularJS/XSSDOMBased-Angular.md)
+- [XSS DOM Based - AngularJS](./XSSDOMBased-Angular/XSSDOMBased-Angular.md)
